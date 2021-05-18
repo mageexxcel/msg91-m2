@@ -1,0 +1,30 @@
+{
+    "name": "excellence/msg91",
+    "description": "MSG91 SMS extension",
+    "require": {
+        "excellence/base": "0.0.*",
+        "excellence/sms": "1.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+          "name": "Sagar Bhardwaj",
+          "email": "sagar@excellencetechnologies.in",
+          "homepage": "https://excellencetechnologies.co.in/",
+          "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Excllence\\MSG91\\": ""
+        }
+    }
+}

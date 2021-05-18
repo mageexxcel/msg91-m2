@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="excellence" translate="label" sortOrder="100">
+            <label>Excellence</label>
+        </tab>
+        <section id="msg91" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>MSG91</label>
+            <tab>excellence</tab>
+            <resource>Excellence_MSG91::msg91_config</resource>
+            <group id="msg91_settings" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>MSG91 Settings</label>
+                <field id="auth_key" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>AUTHORIZATION KEY</label>
+                    <comment><![CDATA[Enter API AUTHORIZATION KEY generated from <a href='https://www.msg91.com/' target='_blank'>msg91.com</a>]]></comment>
+                </field>
+                <field id="route" translate="label" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>ROUTE/TEMPLATE</label>
+                    <comment><![CDATA[Enter 1 for promotional, 4 for transactional SMS.]]></comment>
+                </field>
+                <field id="senderid" translate="label" type="text" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>SENDER NAME</label>
+                    <comment><![CDATA[Enter SMS SenderId, Ex: MSGMSG]]></comment>
+                </field>
+                <field id="country_code" translate="label" type="text" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>COUNTRY CODE</label>
+                    <comment><![CDATA[Enter 0 for international, 91 for India, 1 for USA]]></comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Excellence_MSG91::MSG91_title" title="MSG91" module="Excellence_MSG91" sortOrder="20"  resource="Excellence_Base::base" parent="Excellence_Sms::sms"/>
+        <add id="Excellence_MSG91::msg91_manage" title="MSG91 configuration" module="Excellence_MSG91" sortOrder="10" parent="Excellence_MSG91::MSG91_title" action="adminhtml/system_config/edit/section/msg91" resource="Excellence_MSG91::msg91_config"/>
+    </menu>
+</config>
