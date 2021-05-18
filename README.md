@@ -1,7 +1,7 @@
 # Excellence_Msg91
 ## Magento 2 Extension
 
-### Excellence MSG91 extension is an SMS plugin allows to send the notification message to the sellers and customers.
+#### Excellence MSG91 extension is an SMS plugin allows to send the notification message to the sellers and customers.
 
 ## Features:
 1. Connect MSG91 SMS to your magento store
