@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Adminhtml::admin" title="MSG91 Section">
+                <resource id="Magento_Adminhtml::stores" title="MSG91 Section">
+                    <resource id="Magento_Adminhtml::stores_settings" title="MSG91 Section">
+                        <resource id="Magento_Adminhtml::config" title="MSG91 Section">
+                            <resource id="Excellence_MSG91::msg91_config" title="MSG91 Section"/>
+                        </resource>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
